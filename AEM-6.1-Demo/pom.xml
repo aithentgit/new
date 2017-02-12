@@ -134,7 +134,7 @@
        <snapshotRepository>
           <id>nexus-deploy</id>
           <name>maven-snapshots</name>
-          <url>https://10.202.17.128:8444/nexus/repository/maven-snapshots/</url>
+          <url>http://10.202.17.128:8081/nexus/repository/maven-snapshots/</url>
        </snapshotRepository>
 	</distributionManagement>
     <build>
