@@ -7,7 +7,7 @@
 
     <groupId>com.aem61.demo</groupId>
     <artifactId>aem-6.1-demo</artifactId>
-    <version>1.1.4-SNAPSHOT</version>
+    <version>1.1.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>AEM-6.1-DEMO - Reactor Project</name>
@@ -130,7 +130,13 @@
             <layout>default</layout>
         </pluginRepository>
     </pluginRepositories>
-
+    <distributionManagement>
+       <snapshotRepository>
+          <id>nexus-deploy</id>
+          <name>maven-snapshots</name>
+          <url>https://10.202.17.128:8444/nexus/repository/maven-snapshots/</url>
+       </snapshotRepository>
+	</distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
