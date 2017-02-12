@@ -7,7 +7,7 @@
 
     <groupId>com.aem61.demo</groupId>
     <artifactId>aem-6.1-demo</artifactId>
-    <version>1.1.5-SNAPSHOT</version>
+    <version>1.1.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>AEM-6.1-DEMO - Reactor Project</name>
